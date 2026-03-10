@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio avec tailwind css</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- La barre de navigation -->
+    <header class="flex bg-black text-white">
+        <nav class="flex justify-between items-center px-6 py-4 w-full">
+            <div class="logo"> <span class="font-bold text-5xl">Port</span><span
+                    class="text-2xl text-red-900 font-semibold">folio</span></div>
+            <div class="nav-links flex gap-[50px]">
+                <a href="index.html">Acceuil</a>
+                <a href="apropos.html">A propos</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="follow border border-[2px] px-4 py-2 rounded-[20px] border-red-900"><button>Follow Me</button>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-black text-white  p-6">
+        <!-- <h2 class="text-center text-red-900 text-5xl font-medium">A propos de moi</h2> -->
+        <div class="flex justify-between  ">
+            <div>
+                <h2 class="text-center font-semibold py-8 text-6xl text-red-600">Mon parcours</h2>
+                <p class="text-2xl font-extralight">Diplomée d'un BTS en Développement Informatique, <br> j'ai découvert ma passion pour <br> le
+                    Développement web
+                    lors de mon premier projet. <br> Depuis 2 ans, <br> je me spécialise dans le développement frontend
+                    <br> et
+                    j'ai travaillé sur plusieurs projets variés.
+                </p>
+            </div>
+            <div>
+                <h2 class="text-red-500 font-semibold py-5 text-4xl">Mes compétences techniques</h2>
+                <h4 class="text-4xl text-red-700 py-4">Frontend</h4>
+                <div class="flex py-2">
+                    <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 mr-3">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <p>HTML & CSS3</p>
+                </div>
+                <div class="flex py-2">
+                    <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 mr-3">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <p>JavaScript ES6+</p>
+                </div>
+                <div class="flex py-2">
+                    <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 mr-3">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <p>Responsive Design</p>
+                </div>
+                <div class="flex py-2">
+                    <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 mr-3">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <p>Flexbox & Grid CSS</p>
+                </div>
+
+                <h4 class="text-4xl text-red-700 py-4">Outils</h4>
+                <div>
+                    <div class="flex justify-between  mb-1 py-2">
+                        <p>Git & Github</p>
+                        <span class="text-sm font-medium text-red-600 ">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-red-700 h-2 rounded-full" style="width: 90%">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-1 py-2">
+                    <p>VS Code</p>
+                    <span class="text-sm font-medium text-red-600 ">75%</span>
+                    </div>
+                     <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-red-700 h-2 rounded-full" style="width: 75%">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-1 py-2">
+                    <p>Figma</p>
+                    <span class="text-sm font-medium text-red-600 ">85%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-red-700 h-2 rounded-full" style="width: 85%">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-1 py-2">
+                    <p>Chrome DevTools</p>
+                    <span class="text-sm font-medium text-red-600 ">65%</span>
+                    </div>
+                     <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-red-700 h-2 rounded-full" style="width: 65%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <h4>En cours d'apprentissage</h4>
+                <ul>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>TypeScript</li>
+                </ul> -->
+            </div>
+        </div>
+        <div class="flex justify-between items-center p-6">
+            <div>
+                <h2 class="text-red-600 font-semibold py-6 text-4xl">Formations et Certifications</h2>
+                <ol class="text-2xl font-extralight">
+                    <li class="py-1">BTS Développement Informatique - 2024</li>
+                    <li class="py-1">Formation Développement Web Frontend - OpenClassrooms</li>
+                    <li class="py-1">Certification Responsive Web Design - freeCodeCamp</li>
+                </ol>
+            </div>
+            <div>
+                <h2 class=" text-red-600 font-semibold py-6 text-4xl">Langues</h2>
+                <ol class="text-2xl font-extralight">
+                    <li class="py-1">Français - Natif</li>
+                    <li class="py-1">Wolof - Natif</li>
+                    <li class="py-1">Anglais - intermédiaire(B1)</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

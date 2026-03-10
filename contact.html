@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio avec tailwind css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- La barre de navigation -->
+    <header class="flex bg-black text-white">
+        <nav class="flex justify-between items-center px-6 py-4 w-full">
+            <div class="logo"> <span class="font-bold text-5xl">Port</span><span
+                    class="text-2xl text-red-900 font-semibold">folio</span></div>
+            <div class="nav-links flex gap-[50px]">
+                <a href="index.html">Acceuil</a>
+                <a href="apropos.html">A propos</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="follow border border-[2px] px-4 py-2 rounded-[20px] border-red-900"><button>Follow Me</button>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-black text-white">
+        <h2 class="text-center text-red-600 font-bold text-5xl py-12">Contacté moi</h2>
+        <div>
+            <h2 class="font-semibold text-3xl p-8">Travaillons ensemble !</h2>
+            <p class="px-8 pb-8 text-2xl font-light">Vous avez un projet web en tete ? Vous cherchez une développeuse
+                frontend motivée et créative? Je serais
+                ravie d'en discuter avec vous. <br>N'hésitez pas à me contacter par les moyens suivants</p>
+            <p class="px-8 pb-8 text-xl text-red-500">gayemamebousso749@gmail.com</p>
+            <div class="text-4xl flex gap-[60px] px-6">
+                <a class="" href="http:www.instagram.fr"><i class="fa fa-instagram"></i></a>
+                <a class="" href="http:www.linkedin.fr"><i class="fa fa-linkedin"></i></a>
+                <a class="" href="http:www.whatsapp.fr"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <form action="" class="py-10"  >
+            <div class="w-[50%] mx-auto p-16 bg-gray-950  rounded-[15px] shadow-xl shadow-red-800">
+                <div class="flex flex-col p-[15px]">
+                    <label for="name" class="pb-3">Nom</label>
+                    <input class="border border-gray-800 p-[10px]" type="text" placeholder="Votre nom">
+                </div>
+                <div class="flex flex-col p-[15px]">
+                    <label for="mail" class="pb-3"> Email</label>
+                    <input class="border border-gray-800 p-[10px]" type="email" placeholder="Votre Email">
+                </div>
+                <div class="flex flex-col p-[15px]">
+                    <label for="message" class="pb-3">Message</label>
+                    <textarea class="border border-gray-800 p-[30px] " name="message" id=""></textarea>
+                </div>
+                <div class="flex justify-center">
+                    <button class="bg-red-600 rounded-[15px] text-white p-[10px] text-center mt-5">Envoyer le message</button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <footer>
+        <p class="p-5 bg-gray-400  flex justify-center text-center">@copyright mame bousso gaye tous droit réservé</p>
+    </footer>
+</body>
